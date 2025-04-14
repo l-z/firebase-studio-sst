@@ -14,7 +14,7 @@
   bootstrap = ''
     mkdir "$out"
     mkdir "$out"/.idx
-    cp dev.nix "$out"/.idx/
+    cp ./dev.nix "$out"/.idx/
     chmod -R +w "$out"
   '';
 }
