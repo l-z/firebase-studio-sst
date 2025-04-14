@@ -12,6 +12,7 @@
   };
 
   bootstrap = ''
+    mkdir "$out"
     mkdir /home/user/.aws
     mkdir test
   '';
