@@ -10,4 +10,9 @@
       "ms-vscode.js-debug"
     ];
   };
+
+  bootstrap = ''
+    mkdir /home/user/.aws
+    mkdir test
+  '';
 }
