@@ -15,7 +15,6 @@
     ''
       mkdir "$out"
       mkdir -p "$out/.idx/"
-      mkdir -p "$out/../.aws/"
       cp -rf ${./dev.nix} "$out/.idx/dev.nix"
       chmod -R +w "$out"
     '';
