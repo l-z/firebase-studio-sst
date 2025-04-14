@@ -1,0 +1,12 @@
+{
+    "name": "SST Starter",
+    "description": "Start a environment SST support",
+    "categories":
+    [
+        "Backend"
+    ],
+    "icon": "https://raw.githubusercontent.com/sst/identity/main/variants/sst-full.svg",
+    "publisher": "Lei Zhang",
+    "params":
+    []
+}
