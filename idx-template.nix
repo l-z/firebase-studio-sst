@@ -13,7 +13,8 @@
 
   bootstrap = ''
     mkdir "$out"
-    mkdir /home/user/.aws
-    mkdir test
+    mkdir "$out"/.idx
+    cp dev.nix "$out"/.idx/
+    chmod -R +w "$out"
   '';
 }
