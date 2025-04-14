@@ -11,10 +11,11 @@
     ];
   };
 
-  bootstrap = ''
-    mkdir "$out"
-    mkdir "$out"/.idx
-    cp ./dev.nix "$out"/.idx/
-    chmod -R +w "$out"
-  '';
+  bootstrap =
+    ''
+      mkdir "$out"
+      mkdir -p "$out/.idx/"
+      cp -rf ${./dev.nix} "$out/.idx/dev.nix"
+      chmod -R +w "$out"
+    '';
 }
